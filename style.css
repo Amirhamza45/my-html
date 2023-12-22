@@ -1,0 +1,84 @@
+* {
+    margin: 0%; padding: 0%;box-sizing: border-box;
+}
+header {
+    width: 100%; height: 100vh;
+    background-image: url(street.png.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+P {
+   color: darkgray;
+   align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    justify-self: flex-start;
+    color: #00b894;
+}
+
+nav {
+    width: 100%; height: 6vh;
+    background-color: rgba(0,0,0,0.2);
+    color: aliceblue; display: flex; justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase; font-weight: bold;
+}
+
+nav .logo{
+    width: 15%; text-align: center;
+}
+
+nav .menu{
+    width: 30%; justify-content: space-around; display: flex;
+}
+
+nav .menu a{
+    width: 8%; color: white; 
+}
+
+nav .menu a:first-child{
+    color: #00b894;
+}
+main {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 15px;
+   align-items: first baseline;
+    letter-spacing: 1px;
+   justify-items: center;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    justify-content: space-around;
+
+}
+
+section .btnone{
+    background:  #00b894;
+    color: whitesmoke;
+    align-items: center;
+    width: 15%;
+    display: flex;
+    border-radius: 3rex;
+    font-weight: bold;
+
+}
+section .btntwo{
+    background: whitesmoke;
+    color:#00b894;
+    align-items: center;
+    width: 15%;
+    display: flex;
+    border-radius: 3rex;
+    font-weight: bold;
+}
